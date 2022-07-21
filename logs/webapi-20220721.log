@@ -1,0 +1,10 @@
+[2022-07-21 16:59:40.011 +03:00  ERR]  GetEntitiesErrors:...
+[2022-07-21 17:08:58.969 +03:00  ERR]  PutErrors:-Agreement not found!
+[2022-07-21 17:10:09.696 +03:00  ERR]  PutErrors:-Agreement not found!
+[2022-07-21 17:10:59.176 +03:00  ERR]  PutErrors:-Agreement System.Threading.Tasks.Task`1[SandP.Models.Agreement] not found!
+[2022-07-21 17:11:36.294 +03:00  ERR]  PutErrors:-Agreement System.Threading.Tasks.Task`1[SandP.Models.Agreement] not found!
+[2022-07-21 17:12:35.156 +03:00  ERR]  PutErrors:-Agreement CNP0000000 not found!
+[2022-07-21 17:12:35.965 +03:00  ERR]  PutErrors:-Agreement CNP0000000 not found!
+[2022-07-21 17:13:37.645 +03:00  ERR]  da
+[2022-07-21 17:13:37.998 +03:00  ERR]  PostErrors:-Agreement CNP1111already exists!
+[2022-07-21 17:15:08.900 +03:00  ERR]  DeleteErrors:-Agreement with 1212 not found

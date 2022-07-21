@@ -1,0 +1,25 @@
+[2022-07-21 16:40:10.113 +03:00  INF]  Now listening on: https://localhost:7202
+[2022-07-21 16:40:10.148 +03:00  INF]  Now listening on: http://localhost:5202
+[2022-07-21 16:40:10.152 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-07-21 16:40:10.152 +03:00  INF]  Hosting environment: Development
+[2022-07-21 16:40:10.152 +03:00  INF]  Content root path: C:\Users\rares\source\repos\SandP\
+[2022-07-21 16:40:12.003 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7202/swagger/index.html - -
+[2022-07-21 16:40:12.964 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7202/swagger/index.html - - - 200 - text/html;charset=utf-8 965.3567ms
+[2022-07-21 16:40:13.501 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7202/_framework/aspnetcore-browser-refresh.js - -
+[2022-07-21 16:40:13.509 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7202/_framework/aspnetcore-browser-refresh.js - - - 200 11968 application/javascript;+charset=utf-8 7.6265ms
+[2022-07-21 16:40:13.961 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7202/swagger/v1/swagger.json - -
+[2022-07-21 16:40:14.117 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7202/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.6553ms
+[2022-07-21 16:40:16.938 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7202/api/Agreements - -
+[2022-07-21 16:40:16.945 +03:00  INF]  Executing endpoint 'SandP.Controllers.AgreementsController.GetEntities (SandP)'
+[2022-07-21 16:40:16.962 +03:00  INF]  Route matched with {action = "GetEntities", controller = "Agreements"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[SandP.Models.Agreement]] GetEntities() on controller SandP.Controllers.AgreementsController (SandP).
+[2022-07-21 16:40:17.583 +03:00  INF]  Entity Framework Core 6.0.7 initialized 'AgreementContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.7' with options: None
+[2022-07-21 16:40:17.688 +03:00  INF]  Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-07-21 16:40:17.696 +03:00  INF]  Weather Forecast executing...
+[2022-07-21 16:40:17.896 +03:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."CNP", "a"."Acord", "a"."ComunicareMail", "a"."ComunicarePosta", "a"."ComunicareSMS", "a"."DenumireCompanie", "a"."Judet", "a"."Mail", "a"."Market", "a"."Nume", "a"."Prenume", "a"."Telefon"
+FROM "Agreements" AS "a"
+[2022-07-21 16:40:17.957 +03:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[SandP.Models.Agreement, SandP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-07-21 16:40:17.967 +03:00  INF]  Executed action SandP.Controllers.AgreementsController.GetEntities (SandP) in 999.569ms
+[2022-07-21 16:40:17.967 +03:00  INF]  Executed endpoint 'SandP.Controllers.AgreementsController.GetEntities (SandP)'
+[2022-07-21 16:40:17.970 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7202/api/Agreements - - - 200 - application/json;+charset=utf-8 1032.6789ms
